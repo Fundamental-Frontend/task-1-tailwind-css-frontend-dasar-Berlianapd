@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .btn-primary {
+    @apply bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition;
+  }
+
+  .btn-secondary {
+    @apply border border-primary text-primary px-4 py-2 rounded-lg hover:bg-primary hover:text-white transition;
+  }
+
+}
